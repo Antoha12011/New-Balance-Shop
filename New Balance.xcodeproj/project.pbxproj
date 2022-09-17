@@ -10,6 +10,7 @@
 		12DD973428D61E8F00F533D7 /* MenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12DD973328D61E8F00F533D7 /* MenuViewController.swift */; };
 		12DD973A28D6202C00F533D7 /* ProductCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12DD973828D6202C00F533D7 /* ProductCell.swift */; };
 		12DD973B28D6202C00F533D7 /* ProductCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 12DD973928D6202C00F533D7 /* ProductCell.xib */; };
+		12DD973D28D6220A00F533D7 /* Menu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12DD973C28D6220A00F533D7 /* Menu.swift */; };
 		12FD6C8E28D379CF00D3419E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12FD6C8D28D379CF00D3419E /* AppDelegate.swift */; };
 		12FD6C9028D379CF00D3419E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12FD6C8F28D379CF00D3419E /* SceneDelegate.swift */; };
 		12FD6C9528D379CF00D3419E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 12FD6C9328D379CF00D3419E /* Main.storyboard */; };
@@ -21,6 +22,7 @@
 		12DD973328D61E8F00F533D7 /* MenuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuViewController.swift; sourceTree = "<group>"; };
 		12DD973828D6202C00F533D7 /* ProductCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductCell.swift; sourceTree = "<group>"; };
 		12DD973928D6202C00F533D7 /* ProductCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ProductCell.xib; sourceTree = "<group>"; };
+		12DD973C28D6220A00F533D7 /* Menu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Menu.swift; sourceTree = "<group>"; };
 		12FD6C8A28D379CF00D3419E /* New Balance.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "New Balance.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		12FD6C8D28D379CF00D3419E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		12FD6C8F28D379CF00D3419E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -46,6 +48,7 @@
 			children = (
 				12DD973828D6202C00F533D7 /* ProductCell.swift */,
 				12DD973928D6202C00F533D7 /* ProductCell.xib */,
+				12DD973C28D6220A00F533D7 /* Menu.swift */,
 			);
 			path = MenuCells;
 			sourceTree = "<group>";
@@ -157,6 +160,7 @@
 				12DD973A28D6202C00F533D7 /* ProductCell.swift in Sources */,
 				12FD6C9028D379CF00D3419E /* SceneDelegate.swift in Sources */,
 				12DD973428D61E8F00F533D7 /* MenuViewController.swift in Sources */,
+				12DD973D28D6220A00F533D7 /* Menu.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
