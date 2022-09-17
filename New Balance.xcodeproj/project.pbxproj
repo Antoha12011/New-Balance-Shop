@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		12DD973428D61E8F00F533D7 /* MenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12DD973328D61E8F00F533D7 /* MenuViewController.swift */; };
+		12DD973A28D6202C00F533D7 /* ProductCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12DD973828D6202C00F533D7 /* ProductCell.swift */; };
+		12DD973B28D6202C00F533D7 /* ProductCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 12DD973928D6202C00F533D7 /* ProductCell.xib */; };
 		12FD6C8E28D379CF00D3419E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12FD6C8D28D379CF00D3419E /* AppDelegate.swift */; };
 		12FD6C9028D379CF00D3419E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12FD6C8F28D379CF00D3419E /* SceneDelegate.swift */; };
 		12FD6C9528D379CF00D3419E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 12FD6C9328D379CF00D3419E /* Main.storyboard */; };
@@ -17,6 +19,8 @@
 
 /* Begin PBXFileReference section */
 		12DD973328D61E8F00F533D7 /* MenuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuViewController.swift; sourceTree = "<group>"; };
+		12DD973828D6202C00F533D7 /* ProductCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductCell.swift; sourceTree = "<group>"; };
+		12DD973928D6202C00F533D7 /* ProductCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ProductCell.xib; sourceTree = "<group>"; };
 		12FD6C8A28D379CF00D3419E /* New Balance.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "New Balance.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		12FD6C8D28D379CF00D3419E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		12FD6C8F28D379CF00D3419E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -37,9 +41,19 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		12DD973528D61FCB00F533D7 /* MenuCells */ = {
+			isa = PBXGroup;
+			children = (
+				12DD973828D6202C00F533D7 /* ProductCell.swift */,
+				12DD973928D6202C00F533D7 /* ProductCell.xib */,
+			);
+			path = MenuCells;
+			sourceTree = "<group>";
+		};
 		12FD6C8128D379CF00D3419E = {
 			isa = PBXGroup;
 			children = (
+				12DD973528D61FCB00F533D7 /* MenuCells */,
 				12FD6C8C28D379CF00D3419E /* New Balance */,
 				12FD6C8B28D379CF00D3419E /* Products */,
 			);
@@ -58,11 +72,11 @@
 			children = (
 				12FD6C8D28D379CF00D3419E /* AppDelegate.swift */,
 				12FD6C8F28D379CF00D3419E /* SceneDelegate.swift */,
+				12DD973328D61E8F00F533D7 /* MenuViewController.swift */,
 				12FD6C9328D379CF00D3419E /* Main.storyboard */,
 				12FD6C9628D379D100D3419E /* Assets.xcassets */,
 				12FD6C9828D379D100D3419E /* LaunchScreen.storyboard */,
 				12FD6C9B28D379D100D3419E /* Info.plist */,
-				12DD973328D61E8F00F533D7 /* MenuViewController.swift */,
 			);
 			path = "New Balance";
 			sourceTree = "<group>";
@@ -126,6 +140,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				12FD6C9A28D379D100D3419E /* LaunchScreen.storyboard in Resources */,
+				12DD973B28D6202C00F533D7 /* ProductCell.xib in Resources */,
 				12FD6C9728D379D100D3419E /* Assets.xcassets in Resources */,
 				12FD6C9528D379CF00D3419E /* Main.storyboard in Resources */,
 			);
@@ -139,6 +154,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				12FD6C8E28D379CF00D3419E /* AppDelegate.swift in Sources */,
+				12DD973A28D6202C00F533D7 /* ProductCell.swift in Sources */,
 				12FD6C9028D379CF00D3419E /* SceneDelegate.swift in Sources */,
 				12DD973428D61E8F00F533D7 /* MenuViewController.swift in Sources */,
 			);
