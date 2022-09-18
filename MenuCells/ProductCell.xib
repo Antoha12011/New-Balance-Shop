@@ -28,6 +28,9 @@
                 <constraint firstAttribute="bottom" secondItem="nw8-XE-Qeh" secondAttribute="bottom" id="gxr-Ky-g1E"/>
                 <constraint firstItem="nw8-XE-Qeh" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" id="tnn-7N-jPq"/>
             </constraints>
+            <connections>
+                <outlet property="productImage" destination="nw8-XE-Qeh" id="GOb-gN-0xt"/>
+            </connections>
             <point key="canvasLocation" x="132" y="115"/>
         </collectionViewCell>
     </objects>
