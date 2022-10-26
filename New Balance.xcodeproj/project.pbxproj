@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		128D41BE2908584A0008DD48 /* CustomTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 128D41BD2908584A0008DD48 /* CustomTableViewCell.swift */; };
 		12A622B528D7938F00AE65DB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12A622B428D7938F00AE65DB /* ViewController.swift */; };
 		12FD6C8E28D379CF00D3419E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12FD6C8D28D379CF00D3419E /* AppDelegate.swift */; };
 		12FD6C9028D379CF00D3419E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12FD6C8F28D379CF00D3419E /* SceneDelegate.swift */; };
@@ -16,6 +17,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		128D41BD2908584A0008DD48 /* CustomTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTableViewCell.swift; sourceTree = "<group>"; };
 		12A622B428D7938F00AE65DB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		12FD6C8A28D379CF00D3419E /* New Balance.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "New Balance.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		12FD6C8D28D379CF00D3419E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -59,6 +61,7 @@
 				12FD6C8D28D379CF00D3419E /* AppDelegate.swift */,
 				12FD6C8F28D379CF00D3419E /* SceneDelegate.swift */,
 				12A622B428D7938F00AE65DB /* ViewController.swift */,
+				128D41BD2908584A0008DD48 /* CustomTableViewCell.swift */,
 				12FD6C9328D379CF00D3419E /* Main.storyboard */,
 				12FD6C9628D379D100D3419E /* Assets.xcassets */,
 				12FD6C9828D379D100D3419E /* LaunchScreen.storyboard */,
@@ -140,6 +143,7 @@
 			files = (
 				12A622B528D7938F00AE65DB /* ViewController.swift in Sources */,
 				12FD6C8E28D379CF00D3419E /* AppDelegate.swift in Sources */,
+				128D41BE2908584A0008DD48 /* CustomTableViewCell.swift in Sources */,
 				12FD6C9028D379CF00D3419E /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -297,7 +301,7 @@
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -326,7 +330,7 @@
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
