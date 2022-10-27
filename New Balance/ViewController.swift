@@ -16,21 +16,23 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
         
         let title: String
         let imageName: String
+        var subTitle: String
     }
     
-    let data: [Sunset] = [Sunset(title: "New Balance", imageName: "1"),
-                           Sunset(title: "New Balance", imageName: "2"),
-                           Sunset(title: "New Balance", imageName: "3"),
-                           Sunset(title: "New Balance", imageName: "4"),
-                           Sunset(title: "New Balance", imageName: "5"),
-                           Sunset(title: "New Balance", imageName: "6"),
-                           Sunset(title: "New Balance", imageName: "7"),
-                           Sunset(title: "New Balance", imageName: "8"),
-                           Sunset(title: "New Balance", imageName: "9"),
-                           Sunset(title: "New Balance", imageName: "10"),
-                           Sunset(title: "New Balance", imageName: "11"),
-                           Sunset(title: "New Balance", imageName: "12"),
-                           Sunset(title: "New Balance", imageName: "13"),]
+    let data: [Sunset] = [Sunset(title: "New Balance", imageName: "1", subTitle: "Описание"),
+                    Sunset(title: "New Balance", imageName: "2", subTitle: "Описание"),
+                    Sunset(title: "New Balance", imageName: "3", subTitle: "Описание"),
+                    Sunset(title: "New Balance", imageName: "4", subTitle: "Описание"),
+                    Sunset(title: "New Balance", imageName: "5", subTitle: "Описание"),
+                    Sunset(title: "New Balance", imageName: "6", subTitle: "Описание"),
+                    Sunset(title: "New Balance", imageName: "7", subTitle: "Описание"),
+                    Sunset(title: "New Balance", imageName: "8", subTitle: "Описание"),
+                    Sunset(title: "New Balance", imageName: "9", subTitle: "Описание"),
+                    Sunset(title: "New Balance", imageName: "10", subTitle: "Описание"),
+                    Sunset(title: "New Balance", imageName: "11", subTitle: "Описание"),
+                    Sunset(title: "New Balance", imageName: "12", subTitle: "Описание"),
+                    Sunset(title: "New Balance", imageName: "13", subTitle: "Описание"),
+    ]
     
     override func viewDidLoad() {
         super.viewDidLoad()
