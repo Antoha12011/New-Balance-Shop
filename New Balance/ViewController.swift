@@ -48,6 +48,7 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
         let sunset = data[indexPath.row]
         let cell = table.dequeueReusableCell(withIdentifier: "cell", for: indexPath) as! CustomTableViewCell
         cell.label.text = sunset.title
+        cell.subTitle.text = sunset.subTitle
         cell.iconImageView.image = UIImage(named: sunset.imageName)
         return cell
     }
