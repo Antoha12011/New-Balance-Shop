@@ -19,19 +19,19 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
         var subTitle: String
     }
     
-    let data: [Sunset] = [Sunset(title: "New Balance", imageName: "1", subTitle: "Описание"),
-                    Sunset(title: "New Balance", imageName: "2", subTitle: "Описание"),
-                    Sunset(title: "New Balance", imageName: "3", subTitle: "Описание"),
-                    Sunset(title: "New Balance", imageName: "4", subTitle: "Описание"),
-                    Sunset(title: "New Balance", imageName: "5", subTitle: "Описание"),
-                    Sunset(title: "New Balance", imageName: "6", subTitle: "Описание"),
-                    Sunset(title: "New Balance", imageName: "7", subTitle: "Описание"),
-                    Sunset(title: "New Balance", imageName: "8", subTitle: "Описание"),
-                    Sunset(title: "New Balance", imageName: "9", subTitle: "Описание"),
-                    Sunset(title: "New Balance", imageName: "10", subTitle: "Описание"),
-                    Sunset(title: "New Balance", imageName: "11", subTitle: "Описание"),
-                    Sunset(title: "New Balance", imageName: "12", subTitle: "Описание"),
-                    Sunset(title: "New Balance", imageName: "13", subTitle: "Описание"),
+    let data: [Sunset] = [Sunset(title: "New Balance 574", imageName: "1", subTitle: "Описание"),
+                    Sunset(title: "New Balance 997", imageName: "2", subTitle: "Описание"),
+                    Sunset(title: "New Balance 574", imageName: "3", subTitle: "Описание"),
+                    Sunset(title: "New Balance 574", imageName: "4", subTitle: "Описание"),
+                    Sunset(title: "New Balance 327", imageName: "5", subTitle: "Описание"),
+                    Sunset(title: "New Balance 327", imageName: "6", subTitle: "Описание"),
+                    Sunset(title: "New Balance 574", imageName: "7", subTitle: "Описание"),
+                    Sunset(title: "New Balance 574", imageName: "8", subTitle: "Описание"),
+                    Sunset(title: "New Balance 237", imageName: "9", subTitle: "Описание"),
+                    Sunset(title: "New Balance 574", imageName: "10", subTitle: "Описание"),
+                    Sunset(title: "New Balance 574", imageName: "11", subTitle: "Описание"),
+                    Sunset(title: "New Balance 574", imageName: "12", subTitle: "Описание"),
+                    Sunset(title: "New Balance 997", imageName: "13", subTitle: "Описание"),
     ]
     
     override func viewDidLoad() {
