@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1204CB7C290C01D000467843 /* InfoAboutShoesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1204CB7B290C01D000467843 /* InfoAboutShoesViewController.swift */; };
 		127C3CBC290AF0CB00DA6EA2 /* ShoppingCartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 127C3CBB290AF0CB00DA6EA2 /* ShoppingCartViewController.swift */; };
 		128D41BE2908584A0008DD48 /* CustomTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 128D41BD2908584A0008DD48 /* CustomTableViewCell.swift */; };
 		12A622B528D7938F00AE65DB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12A622B428D7938F00AE65DB /* ViewController.swift */; };
@@ -18,6 +19,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1204CB7B290C01D000467843 /* InfoAboutShoesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoAboutShoesViewController.swift; sourceTree = "<group>"; };
 		127C3CBB290AF0CB00DA6EA2 /* ShoppingCartViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShoppingCartViewController.swift; sourceTree = "<group>"; };
 		128D41BD2908584A0008DD48 /* CustomTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTableViewCell.swift; sourceTree = "<group>"; };
 		12A622B428D7938F00AE65DB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -65,6 +67,7 @@
 				12A622B428D7938F00AE65DB /* ViewController.swift */,
 				128D41BD2908584A0008DD48 /* CustomTableViewCell.swift */,
 				127C3CBB290AF0CB00DA6EA2 /* ShoppingCartViewController.swift */,
+				1204CB7B290C01D000467843 /* InfoAboutShoesViewController.swift */,
 				12FD6C9328D379CF00D3419E /* Main.storyboard */,
 				12FD6C9628D379D100D3419E /* Assets.xcassets */,
 				12FD6C9828D379D100D3419E /* LaunchScreen.storyboard */,
@@ -145,6 +148,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				12A622B528D7938F00AE65DB /* ViewController.swift in Sources */,
+				1204CB7C290C01D000467843 /* InfoAboutShoesViewController.swift in Sources */,
 				12FD6C8E28D379CF00D3419E /* AppDelegate.swift in Sources */,
 				128D41BE2908584A0008DD48 /* CustomTableViewCell.swift in Sources */,
 				12FD6C9028D379CF00D3419E /* SceneDelegate.swift in Sources */,
