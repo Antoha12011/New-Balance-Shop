@@ -91,6 +91,22 @@
             <point key="canvasLocation" x="-1970" y="382"/>
         </scene>
         <!--View Controller-->
+        <scene sceneID="4KC-Ux-jyu">
+            <objects>
+                <viewController id="zyv-Id-3bl" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="rQM-Ch-lTc">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <viewLayoutGuide key="safeArea" id="dQz-zv-GEK"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="" image="rays" catalog="system" id="IXm-Oi-Fnu"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="cvV-Zy-lQi" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1043" y="382"/>
+        </scene>
+        <!--View Controller-->
         <scene sceneID="Yaj-6q-anD">
             <objects>
                 <viewController id="R8H-aE-AA1" sceneMemberID="viewController">
@@ -106,7 +122,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="OOe-N8-icP" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-1043" y="382"/>
+            <point key="canvasLocation" x="-204" y="382"/>
         </scene>
         <!--Tab Bar Controller-->
         <scene sceneID="VQR-WQ-MvG">
@@ -120,7 +136,8 @@
                     </tabBar>
                     <connections>
                         <segue destination="BYZ-38-t0r" kind="relationship" relationship="viewControllers" id="dyx-nZ-UKs"/>
-                        <segue destination="R8H-aE-AA1" kind="relationship" relationship="viewControllers" id="RiU-1G-110"/>
+                        <segue destination="zyv-Id-3bl" kind="relationship" relationship="viewControllers" id="ngx-tG-xEw"/>
+                        <segue destination="R8H-aE-AA1" kind="relationship" relationship="viewControllers" id="myJ-bD-BLz"/>
                     </connections>
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="g7V-65-EIX" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
@@ -131,6 +148,7 @@
     <resources>
         <image name="cart" catalog="system" width="128" height="102"/>
         <image name="line.horizontal.3" catalog="system" width="128" height="64"/>
+        <image name="rays" catalog="system" width="128" height="122"/>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>
