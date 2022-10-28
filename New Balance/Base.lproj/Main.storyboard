@@ -3,6 +3,7 @@
     <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19144"/>
+        <capability name="Image references" minToolsVersion="12.0"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="System colors in document resources" minToolsVersion="11.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
@@ -78,14 +79,34 @@
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="cNf-Aq-u9M" secondAttribute="bottom" id="sfh-rs-ceB"/>
                         </constraints>
                     </view>
-                    <tabBarItem key="tabBarItem" title="" id="c09-g4-wqq"/>
+                    <tabBarItem key="tabBarItem" title="" id="c09-g4-wqq">
+                        <imageReference key="image" image="line.horizontal.3" catalog="system" symbolScale="large"/>
+                    </tabBarItem>
                     <connections>
                         <outlet property="table" destination="cNf-Aq-u9M" id="qHi-kd-4E1"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-220" y="15"/>
+            <point key="canvasLocation" x="-1970" y="382"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="Yaj-6q-anD">
+            <objects>
+                <viewController id="R8H-aE-AA1" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="n77-Lo-QdK">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <viewLayoutGuide key="safeArea" id="0os-0O-rMA"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="" id="Byb-oH-tfj">
+                        <imageReference key="image" image="cart" catalog="system" symbolScale="large"/>
+                    </tabBarItem>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="OOe-N8-icP" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1043" y="382"/>
         </scene>
         <!--Tab Bar Controller-->
         <scene sceneID="VQR-WQ-MvG">
@@ -98,14 +119,17 @@
                     </tabBar>
                     <connections>
                         <segue destination="BYZ-38-t0r" kind="relationship" relationship="viewControllers" id="dyx-nZ-UKs"/>
+                        <segue destination="R8H-aE-AA1" kind="relationship" relationship="viewControllers" id="RiU-1G-110"/>
                     </connections>
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="g7V-65-EIX" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-1068.1159420289855" y="15.401785714285714"/>
+            <point key="canvasLocation" x="-1043" y="-344"/>
         </scene>
     </scenes>
     <resources>
+        <image name="cart" catalog="system" width="128" height="102"/>
+        <image name="line.horizontal.3" catalog="system" width="128" height="64"/>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>
