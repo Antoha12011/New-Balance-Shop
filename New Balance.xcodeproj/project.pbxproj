@@ -43,10 +43,32 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1204CB7D290C020B00467843 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				12A622B428D7938F00AE65DB /* ViewController.swift */,
+				128D41BD2908584A0008DD48 /* CustomTableViewCell.swift */,
+				127C3CBB290AF0CB00DA6EA2 /* ShoppingCartViewController.swift */,
+				1204CB7B290C01D000467843 /* InfoAboutShoesViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		1204CB7E290C023400467843 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				12FD6C9828D379D100D3419E /* LaunchScreen.storyboard */,
+				12FD6C9328D379CF00D3419E /* Main.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
 		12FD6C8128D379CF00D3419E = {
 			isa = PBXGroup;
 			children = (
+				1204CB7E290C023400467843 /* Storyboards */,
 				12FD6C8C28D379CF00D3419E /* New Balance */,
+				1204CB7D290C020B00467843 /* ViewControllers */,
 				12FD6C8B28D379CF00D3419E /* Products */,
 			);
 			sourceTree = "<group>";
@@ -64,13 +86,7 @@
 			children = (
 				12FD6C8D28D379CF00D3419E /* AppDelegate.swift */,
 				12FD6C8F28D379CF00D3419E /* SceneDelegate.swift */,
-				12A622B428D7938F00AE65DB /* ViewController.swift */,
-				128D41BD2908584A0008DD48 /* CustomTableViewCell.swift */,
-				127C3CBB290AF0CB00DA6EA2 /* ShoppingCartViewController.swift */,
-				1204CB7B290C01D000467843 /* InfoAboutShoesViewController.swift */,
-				12FD6C9328D379CF00D3419E /* Main.storyboard */,
 				12FD6C9628D379D100D3419E /* Assets.xcassets */,
-				12FD6C9828D379D100D3419E /* LaunchScreen.storyboard */,
 				12FD6C9B28D379D100D3419E /* Info.plist */,
 			);
 			path = "New Balance";
