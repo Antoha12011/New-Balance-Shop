@@ -66,8 +66,8 @@
 		12FD6C8128D379CF00D3419E = {
 			isa = PBXGroup;
 			children = (
-				1204CB7E290C023400467843 /* Storyboards */,
 				12FD6C8C28D379CF00D3419E /* New Balance */,
+				1204CB7E290C023400467843 /* Storyboards */,
 				1204CB7D290C020B00467843 /* ViewControllers */,
 				12FD6C8B28D379CF00D3419E /* Products */,
 			);
