@@ -80,7 +80,7 @@
                         </constraints>
                     </view>
                     <tabBarItem key="tabBarItem" title="" id="c09-g4-wqq">
-                        <imageReference key="image" image="line.horizontal.3" catalog="system" symbolScale="large"/>
+                        <imageReference key="image" image="line.horizontal.3.decrease" catalog="system" symbolScale="large"/>
                     </tabBarItem>
                     <connections>
                         <outlet property="table" destination="cNf-Aq-u9M" id="qHi-kd-4E1"/>
@@ -147,7 +147,7 @@
     </scenes>
     <resources>
         <image name="cart" catalog="system" width="128" height="102"/>
-        <image name="line.horizontal.3" catalog="system" width="128" height="64"/>
+        <image name="line.horizontal.3.decrease" catalog="system" width="128" height="73"/>
         <image name="rays" catalog="system" width="128" height="122"/>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
