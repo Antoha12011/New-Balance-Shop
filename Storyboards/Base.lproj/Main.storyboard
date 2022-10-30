@@ -132,6 +132,7 @@
                                 </userDefinedRuntimeAttributes>
                                 <connections>
                                     <action selector="ClickToAddInCart:" destination="zyv-Id-3bl" eventType="touchUpInside" id="91x-Z0-ehC"/>
+                                    <segue destination="R8H-aE-AA1" kind="show" id="qca-pW-gia"/>
                                 </connections>
                             </button>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="jjg-xq-anh">
@@ -198,7 +199,7 @@
         <!--Shopping Cart View Controller-->
         <scene sceneID="Yaj-6q-anD">
             <objects>
-                <viewController id="R8H-aE-AA1" customClass="ShoppingCartViewController" customModule="New_Balance" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController modalPresentationStyle="fullScreen" id="R8H-aE-AA1" customClass="ShoppingCartViewController" customModule="New_Balance" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="n77-Lo-QdK">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -208,6 +209,7 @@
                     <tabBarItem key="tabBarItem" title="" id="Byb-oH-tfj">
                         <imageReference key="image" image="cart" catalog="system" symbolScale="large"/>
                     </tabBarItem>
+                    <navigationItem key="navigationItem" id="UeQ-WD-Vh1"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="OOe-N8-icP" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -234,6 +236,9 @@
             <point key="canvasLocation" x="-1043" y="-346"/>
         </scene>
     </scenes>
+    <inferredMetricsTieBreakers>
+        <segue reference="qca-pW-gia"/>
+    </inferredMetricsTieBreakers>
     <resources>
         <image name="cart" catalog="system" width="128" height="102"/>
         <image name="line.horizontal.3.decrease" catalog="system" width="128" height="73"/>
