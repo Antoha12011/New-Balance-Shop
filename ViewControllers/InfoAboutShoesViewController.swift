@@ -24,6 +24,8 @@ class InfoAboutShoesViewController: UIViewController {
     }
     
     @IBAction func ClickToAddInCart(_ sender: UIButton) {
+        
+        
     }
     
     
