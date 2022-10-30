@@ -90,10 +90,10 @@
             </objects>
             <point key="canvasLocation" x="-1971.0144927536232" y="381.69642857142856"/>
         </scene>
-        <!--View Controller-->
+        <!--Info About Shoes View Controller-->
         <scene sceneID="4KC-Ux-jyu">
             <objects>
-                <viewController id="zyv-Id-3bl" sceneMemberID="viewController">
+                <viewController id="zyv-Id-3bl" customClass="InfoAboutShoesViewController" customModule="New_Balance" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="rQM-Ch-lTc">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -102,13 +102,6 @@
                                 <rect key="frame" x="20" y="100" width="374" height="236"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Model" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="59n-Ch-aiw">
-                                <rect key="frame" x="95" y="52" width="225" height="40"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Price:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="koC-xc-dQv">
                                 <rect key="frame" x="20" y="344" width="130" height="39"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -128,6 +121,9 @@
                                         <integer key="value" value="10"/>
                                     </userDefinedRuntimeAttribute>
                                 </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <action selector="ClickToAddInCart:" destination="zyv-Id-3bl" eventType="touchUpInside" id="91x-Z0-ehC"/>
+                                </connections>
                             </button>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="jjg-xq-anh">
                                 <rect key="frame" x="20" y="391" width="374" height="365"/>
@@ -138,20 +134,34 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Model" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="59n-Ch-aiw">
+                                <rect key="frame" x="20" y="44" width="225" height="40"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="dQz-zv-GEK"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
                     <tabBarItem key="tabBarItem" title="" image="rays" catalog="system" id="IXm-Oi-Fnu"/>
+                    <connections>
+                        <outlet property="discriptionShoes" destination="jjg-xq-anh" id="E3i-DP-pcP"/>
+                        <outlet property="image" destination="YI2-uD-oR4" id="Del-Wx-cra"/>
+                        <outlet property="imageShoes" destination="YI2-uD-oR4" id="dc7-E6-awS"/>
+                        <outlet property="modelLbl" destination="59n-Ch-aiw" id="ohk-23-sCU"/>
+                        <outlet property="priceLbl" destination="koC-xc-dQv" id="N1u-Uu-u01"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="cvV-Zy-lQi" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="-1043.4782608695652" y="381.69642857142856"/>
         </scene>
-        <!--View Controller-->
+        <!--Shopping Cart View Controller-->
         <scene sceneID="Yaj-6q-anD">
             <objects>
-                <viewController id="R8H-aE-AA1" sceneMemberID="viewController">
+                <viewController id="R8H-aE-AA1" customClass="ShoppingCartViewController" customModule="New_Balance" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="n77-Lo-QdK">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
