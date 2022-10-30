@@ -98,7 +98,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="YI2-uD-oR4">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="YI2-uD-oR4">
                                 <rect key="frame" x="20" y="100" width="374" height="236"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="236" id="IUA-1Z-rtM"/>
@@ -135,14 +135,14 @@
                                     <segue destination="R8H-aE-AA1" kind="show" id="qca-pW-gia"/>
                                 </connections>
                             </button>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="jjg-xq-anh">
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="jjg-xq-anh">
                                 <rect key="frame" x="20" y="391" width="374" height="365"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="365" id="HA5-tw-GEY"/>
                                     <constraint firstAttribute="width" constant="374" id="Lcb-9n-ucT"/>
                                 </constraints>
-                                <string key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</string>
+                                <mutableString key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</mutableString>
                                 <color key="textColor" systemColor="labelColor"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
@@ -186,7 +186,6 @@
                     <tabBarItem key="tabBarItem" title="" image="rays" catalog="system" id="IXm-Oi-Fnu"/>
                     <connections>
                         <outlet property="discriptionShoes" destination="jjg-xq-anh" id="E3i-DP-pcP"/>
-                        <outlet property="image" destination="YI2-uD-oR4" id="Del-Wx-cra"/>
                         <outlet property="imageShoes" destination="YI2-uD-oR4" id="dc7-E6-awS"/>
                         <outlet property="modelLbl" destination="59n-Ch-aiw" id="ohk-23-sCU"/>
                         <outlet property="priceLbl" destination="koC-xc-dQv" id="N1u-Uu-u01"/>
