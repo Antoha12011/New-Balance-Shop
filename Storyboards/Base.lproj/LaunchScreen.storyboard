@@ -16,20 +16,20 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="1024" translatesAutoresizingMaskIntoConstraints="NO" id="YLi-ao-GdJ">
-                                <rect key="frame" x="61" y="308" width="293" height="280"/>
+                                <rect key="frame" x="121" y="375" width="173" height="147"/>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="280" id="Bvn-27-GUc"/>
-                                    <constraint firstAttribute="width" constant="293" id="jiI-53-YpW"/>
+                                    <constraint firstAttribute="height" constant="147" id="Bvn-27-GUc"/>
+                                    <constraint firstAttribute="width" constant="173" id="jiI-53-YpW"/>
                                 </constraints>
                             </imageView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" red="0.72414869069999999" green="0.1924726665" blue="0.29372805359999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
-                            <constraint firstItem="YLi-ao-GdJ" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="61" id="8d3-ss-iWb"/>
-                            <constraint firstItem="YLi-ao-GdJ" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="264" id="Pv1-TM-7jU"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="YLi-ao-GdJ" secondAttribute="bottom" constant="274" id="b6P-Is-Mth"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="YLi-ao-GdJ" secondAttribute="trailing" constant="60" id="qT2-Ap-Br0"/>
+                            <constraint firstItem="YLi-ao-GdJ" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="121" id="8d3-ss-iWb"/>
+                            <constraint firstItem="YLi-ao-GdJ" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="331" id="Pv1-TM-7jU"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="YLi-ao-GdJ" secondAttribute="bottom" constant="340" id="b6P-Is-Mth"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="YLi-ao-GdJ" secondAttribute="trailing" constant="120" id="qT2-Ap-Br0"/>
                         </constraints>
                     </view>
                 </viewController>
