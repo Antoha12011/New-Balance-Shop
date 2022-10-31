@@ -9,7 +9,7 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--View Controller-->
+        <!--Меню-->
         <scene sceneID="tne-QT-ifu">
             <objects>
                 <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="New_Balance" customModuleProvider="target" sceneMemberID="viewController">
@@ -18,7 +18,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" translatesAutoresizingMaskIntoConstraints="NO" id="cNf-Aq-u9M">
-                                <rect key="frame" x="0.0" y="44" width="414" height="769"/>
+                                <rect key="frame" x="0.0" y="88" width="414" height="725"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                 <prototypes>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" selectionStyle="blue" accessoryType="disclosureIndicator" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="cell" rowHeight="118" id="RVp-BB-MxT" customClass="CustomTableViewCell" customModule="New_Balance" customModuleProvider="target">
@@ -79,16 +79,14 @@
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="cNf-Aq-u9M" secondAttribute="bottom" id="sfh-rs-ceB"/>
                         </constraints>
                     </view>
-                    <tabBarItem key="tabBarItem" title="" id="c09-g4-wqq">
-                        <imageReference key="image" image="line.horizontal.3.decrease" catalog="system" symbolScale="large"/>
-                    </tabBarItem>
+                    <navigationItem key="navigationItem" title="Меню" largeTitleDisplayMode="always" id="C1x-nP-j2V"/>
                     <connections>
                         <outlet property="table" destination="cNf-Aq-u9M" id="qHi-kd-4E1"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-1971.0144927536232" y="381.69642857142856"/>
+            <point key="canvasLocation" x="-1060.8695652173915" y="381.69642857142856"/>
         </scene>
         <!--Info About Shoes View Controller-->
         <scene sceneID="4KC-Ux-jyu">
@@ -142,7 +140,7 @@
                                     <constraint firstAttribute="height" constant="365" id="HA5-tw-GEY"/>
                                     <constraint firstAttribute="width" constant="374" id="Lcb-9n-ucT"/>
                                 </constraints>
-                                <mutableString key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</mutableString>
+                                <string key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</string>
                                 <color key="textColor" systemColor="labelColor"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
@@ -193,7 +191,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="cvV-Zy-lQi" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-1043.4782608695652" y="381.69642857142856"/>
+            <point key="canvasLocation" x="-197" y="382"/>
         </scene>
         <!--Shopping Cart View Controller-->
         <scene sceneID="Yaj-6q-anD">
@@ -223,7 +221,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="OOe-N8-icP" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-204" y="382"/>
+            <point key="canvasLocation" x="658" y="382"/>
         </scene>
         <!--Tab Bar Controller-->
         <scene sceneID="VQR-WQ-MvG">
@@ -236,7 +234,7 @@
                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                     </tabBar>
                     <connections>
-                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="viewControllers" id="dyx-nZ-UKs"/>
+                        <segue destination="V5F-6F-Ps9" kind="relationship" relationship="viewControllers" id="dyx-nZ-UKs"/>
                         <segue destination="zyv-Id-3bl" kind="relationship" relationship="viewControllers" id="ngx-tG-xEw"/>
                         <segue destination="R8H-aE-AA1" kind="relationship" relationship="viewControllers" id="myJ-bD-BLz"/>
                     </connections>
@@ -244,6 +242,27 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="g7V-65-EIX" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="-1043" y="-346"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="RX3-yc-mdh">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="V5F-6F-Ps9" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="" id="c09-g4-wqq">
+                        <imageReference key="image" image="line.horizontal.3.decrease" catalog="system" symbolScale="large"/>
+                    </tabBarItem>
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="6BR-wg-UhU">
+                        <rect key="frame" x="0.0" y="44" width="414" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="29S-ye-nIJ"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="YJv-tV-fk1" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1901" y="382"/>
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
