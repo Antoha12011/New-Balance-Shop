@@ -12,7 +12,7 @@
         <!--Меню-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="New_Balance" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="ViewController" id="BYZ-38-t0r" customClass="ViewController" customModule="New_Balance" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -91,7 +91,7 @@
         <!--Описание-->
         <scene sceneID="4KC-Ux-jyu">
             <objects>
-                <viewController id="zyv-Id-3bl" customClass="InfoAboutShoesViewController" customModule="New_Balance" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="InfoAboutShoesViewController" id="zyv-Id-3bl" customClass="InfoAboutShoesViewController" customModule="New_Balance" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="rQM-Ch-lTc">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -159,13 +159,13 @@
         <!--Корзина-->
         <scene sceneID="Yaj-6q-anD">
             <objects>
-                <viewController modalPresentationStyle="fullScreen" id="R8H-aE-AA1" customClass="ShoppingCartViewController" customModule="New_Balance" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="ShoppingCartViewController" modalPresentationStyle="fullScreen" id="R8H-aE-AA1" customClass="ShoppingCartViewController" customModule="New_Balance" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="n77-Lo-QdK">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="2sZ-b2-N29">
-                                <rect key="frame" x="56" y="119" width="302" height="165"/>
+                                <rect key="frame" x="56" y="119" width="302" height="214"/>
                             </imageView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="0os-0O-rMA"/>
@@ -186,7 +186,6 @@
         <!--Tab Bar Controller-->
         <scene sceneID="VQR-WQ-MvG">
             <objects>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="g7V-65-EIX" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
                 <tabBarController automaticallyAdjustsScrollViewInsets="NO" id="ch4-QW-cf3" sceneMemberID="viewController">
                     <toolbarItems/>
                     <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="l5y-H1-iIN">
@@ -199,6 +198,7 @@
                         <segue destination="8WL-ex-8UK" kind="relationship" relationship="viewControllers" id="myJ-bD-BLz"/>
                     </connections>
                 </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="g7V-65-EIX" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="-175" y="-348"/>
         </scene>
@@ -266,7 +266,7 @@
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="myJ-bD-BLz"/>
+        <segue reference="qca-pW-gia"/>
     </inferredMetricsTieBreakers>
     <resources>
         <image name="cart" catalog="system" width="128" height="102"/>
