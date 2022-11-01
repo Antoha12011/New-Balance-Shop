@@ -165,7 +165,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="2sZ-b2-N29">
-                                <rect key="frame" x="56" y="119" width="302" height="214"/>
+                                <rect key="frame" x="56" y="119" width="302" height="165"/>
                             </imageView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="0os-0O-rMA"/>
@@ -200,7 +200,7 @@
                     </connections>
                 </tabBarController>
             </objects>
-            <point key="canvasLocation" x="-171" y="-344"/>
+            <point key="canvasLocation" x="-175" y="-348"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="k1n-fX-YYb">
@@ -266,7 +266,7 @@
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="qca-pW-gia"/>
+        <segue reference="myJ-bD-BLz"/>
     </inferredMetricsTieBreakers>
     <resources>
         <image name="cart" catalog="system" width="128" height="102"/>
