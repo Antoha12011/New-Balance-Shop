@@ -86,6 +86,7 @@
                     <navigationItem key="navigationItem" title="Меню" largeTitleDisplayMode="always" id="rW1-Yv-Dcx"/>
                     <connections>
                         <outlet property="table" destination="cNf-Aq-u9M" id="qHi-kd-4E1"/>
+                        <outlet property="tableShoes" destination="cNf-Aq-u9M" id="AvL-CP-pLG"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>

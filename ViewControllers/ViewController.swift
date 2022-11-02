@@ -10,6 +10,8 @@ import UIKit
 class ViewController: UIViewController, UITableViewDataSource, UITableViewDelegate {
   
     
+    @IBOutlet weak var tableShoes: UITableView!
+    
     @IBOutlet weak var table: UITableView!
     
     struct Sunset {
