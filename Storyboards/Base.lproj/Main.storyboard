@@ -65,6 +65,7 @@
                                             <outlet property="iconImageView" destination="D5c-my-3Wz" id="aaZ-vN-x9m"/>
                                             <outlet property="label" destination="7K7-9q-JA7" id="clp-A4-ihv"/>
                                             <outlet property="subTitle" destination="QSG-iJ-GjQ" id="UWp-ic-oSG"/>
+                                            <segue destination="zyv-Id-3bl" kind="show" id="2mv-Zu-Tg0"/>
                                         </connections>
                                     </tableViewCell>
                                 </prototypes>
@@ -101,7 +102,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="YI2-uD-oR4">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="1" translatesAutoresizingMaskIntoConstraints="NO" id="YI2-uD-oR4">
                                 <rect key="frame" x="20" y="140" width="374" height="236"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
@@ -169,8 +170,8 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="2sZ-b2-N29">
-                                <rect key="frame" x="56" y="119" width="302" height="214"/>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="1" translatesAutoresizingMaskIntoConstraints="NO" id="2sZ-b2-N29">
+                                <rect key="frame" x="56" y="119" width="302" height="165"/>
                             </imageView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="0os-0O-rMA"/>
@@ -272,8 +273,10 @@
     </scenes>
     <inferredMetricsTieBreakers>
         <segue reference="qca-pW-gia"/>
+        <segue reference="2mv-Zu-Tg0"/>
     </inferredMetricsTieBreakers>
     <resources>
+        <image name="1" width="500" height="500"/>
         <image name="cart" catalog="system" width="128" height="102"/>
         <image name="line.horizontal.3.decrease" catalog="system" width="128" height="73"/>
         <systemColor name="labelColor">
