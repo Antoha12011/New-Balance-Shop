@@ -48,8 +48,8 @@
 			children = (
 				12A622B428D7938F00AE65DB /* ViewController.swift */,
 				128D41BD2908584A0008DD48 /* CustomTableViewCell.swift */,
-				127C3CBB290AF0CB00DA6EA2 /* ShoppingCartViewController.swift */,
 				1204CB7B290C01D000467843 /* InfoAboutShoesViewController.swift */,
+				127C3CBB290AF0CB00DA6EA2 /* ShoppingCartViewController.swift */,
 			);
 			path = ViewControllers;
 			sourceTree = "<group>";

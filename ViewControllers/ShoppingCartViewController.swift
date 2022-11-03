@@ -15,4 +15,7 @@ class ShoppingCartViewController: UIViewController {
        
     }
 
+    @IBAction func buttonToDecoration(_ sender: UIButton) {
+        
+    }
 }
