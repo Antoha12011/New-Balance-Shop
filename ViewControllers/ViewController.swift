@@ -11,7 +11,6 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
   
     
     @IBOutlet weak var tableShoes: UITableView!
-    
     @IBOutlet weak var table: UITableView!
     
     struct Sunset {
@@ -59,6 +58,8 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
     func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
         return 140
     }
+    
+   
 }
     
     
