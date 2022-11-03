@@ -6,6 +6,7 @@
         <capability name="Image references" minToolsVersion="12.0"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="collection view cell content view" minToolsVersion="11.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
@@ -186,12 +187,44 @@
                                     <userDefinedRuntimeAttribute type="string" keyPath="layer.cornerRadius" value="10"/>
                                 </userDefinedRuntimeAttributes>
                             </button>
+                            <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="Etv-g6-4PE">
+                                <rect key="frame" x="20" y="88" width="374" height="638"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="374" id="Hgr-VF-3jk"/>
+                                    <constraint firstAttribute="height" constant="638" id="OCi-hT-irC"/>
+                                </constraints>
+                                <collectionViewFlowLayout key="collectionViewLayout" automaticEstimatedItemSize="YES" minimumLineSpacing="10" minimumInteritemSpacing="10" id="G46-dQ-Jz0">
+                                    <size key="itemSize" width="128" height="128"/>
+                                    <size key="headerReferenceSize" width="0.0" height="0.0"/>
+                                    <size key="footerReferenceSize" width="0.0" height="0.0"/>
+                                    <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
+                                </collectionViewFlowLayout>
+                                <cells>
+                                    <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="VQ3-1x-HZK">
+                                        <rect key="frame" x="0.0" y="0.0" width="128" height="128"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <collectionViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" id="hEx-Xa-Qrs">
+                                            <rect key="frame" x="0.0" y="0.0" width="128" height="128"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                        </collectionViewCellContentView>
+                                    </collectionViewCell>
+                                </cells>
+                                <connections>
+                                    <outlet property="dataSource" destination="R8H-aE-AA1" id="Ooa-ex-vD3"/>
+                                    <outlet property="delegate" destination="R8H-aE-AA1" id="1yi-46-MV3"/>
+                                </connections>
+                            </collectionView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="0os-0O-rMA"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
+                            <constraint firstItem="AZl-wk-ijM" firstAttribute="top" secondItem="Etv-g6-4PE" secondAttribute="bottom" constant="25" id="5LE-cV-bQD"/>
+                            <constraint firstItem="Etv-g6-4PE" firstAttribute="leading" secondItem="0os-0O-rMA" secondAttribute="leading" constant="20" id="DAp-CF-RPl"/>
+                            <constraint firstItem="0os-0O-rMA" firstAttribute="trailing" secondItem="Etv-g6-4PE" secondAttribute="trailing" constant="20" id="LAN-2s-Eu2"/>
                             <constraint firstItem="0os-0O-rMA" firstAttribute="trailing" secondItem="AZl-wk-ijM" secondAttribute="trailing" constant="20" id="Mqx-Js-2Tu"/>
                             <constraint firstItem="0os-0O-rMA" firstAttribute="bottom" secondItem="AZl-wk-ijM" secondAttribute="bottom" constant="15" id="V2k-Yo-5du"/>
+                            <constraint firstItem="Etv-g6-4PE" firstAttribute="top" secondItem="0os-0O-rMA" secondAttribute="top" id="m6P-yx-t6b"/>
                             <constraint firstItem="AZl-wk-ijM" firstAttribute="top" secondItem="0os-0O-rMA" secondAttribute="top" constant="663" id="oAe-xW-3c5"/>
                             <constraint firstItem="AZl-wk-ijM" firstAttribute="leading" secondItem="0os-0O-rMA" secondAttribute="leading" constant="20" id="tbZ-X2-2qt"/>
                         </constraints>
