@@ -146,7 +146,6 @@
                                 </userDefinedRuntimeAttributes>
                                 <connections>
                                     <action selector="ClickToAddInCart:" destination="zyv-Id-3bl" eventType="touchUpInside" id="ctD-li-Jpq"/>
-                                    <segue destination="R8H-aE-AA1" kind="show" id="QTA-vS-5F1"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -174,7 +173,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="Etv-g6-4PE">
-                                <rect key="frame" x="20" y="88" width="374" height="651"/>
+                                <rect key="frame" x="20" y="88" width="374" height="602"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                 <collectionViewFlowLayout key="collectionViewLayout" automaticEstimatedItemSize="YES" minimumLineSpacing="10" minimumInteritemSpacing="10" id="G46-dQ-Jz0">
                                     <size key="itemSize" width="174" height="170"/>
@@ -235,7 +234,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="OOe-N8-icP" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1128.985507246377" y="365.625"/>
+            <point key="canvasLocation" x="1158" y="382"/>
         </scene>
         <!--Tab Bar Controller-->
         <scene sceneID="VQR-WQ-MvG">
@@ -299,7 +298,7 @@
         <!--Navigation Controller-->
         <scene sceneID="Sqc-F2-Azw">
             <objects>
-                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="8WL-ex-8UK" sceneMemberID="viewController">
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" modalPresentationStyle="fullScreen" id="8WL-ex-8UK" sceneMemberID="viewController">
                     <tabBarItem key="tabBarItem" title="" id="Byb-oH-tfj">
                         <imageReference key="image" image="cart" catalog="system" symbolScale="large"/>
                     </tabBarItem>
@@ -320,7 +319,6 @@
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="QTA-vS-5F1"/>
         <segue reference="Bz9-2T-AeY"/>
     </inferredMetricsTieBreakers>
     <resources>
