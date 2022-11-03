@@ -87,7 +87,7 @@
                     </view>
                     <navigationItem key="navigationItem" title="Меню" largeTitleDisplayMode="always" id="rW1-Yv-Dcx"/>
                     <connections>
-                        <outlet property="table" destination="cNf-Aq-u9M" id="qHi-kd-4E1"/>
+                        <outlet property="table" destination="cNf-Aq-u9M" id="51I-JB-caX"/>
                         <outlet property="tableShoes" destination="cNf-Aq-u9M" id="AvL-CP-pLG"/>
                     </connections>
                 </viewController>
@@ -127,8 +127,7 @@
                                     </userDefinedRuntimeAttribute>
                                 </userDefinedRuntimeAttributes>
                                 <connections>
-                                    <action selector="ClickToAddInCart:" destination="zyv-Id-3bl" eventType="touchUpInside" id="91x-Z0-ehC"/>
-                                    <segue destination="8WL-ex-8UK" kind="show" id="qca-pW-gia"/>
+                                    <action selector="ClickToAddInCart:" destination="zyv-Id-3bl" eventType="touchUpInside" id="ctD-li-Jpq"/>
                                 </connections>
                             </button>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="jjg-xq-anh">
@@ -201,19 +200,30 @@
                                     <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
                                 </collectionViewFlowLayout>
                                 <cells>
-                                    <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="VQ3-1x-HZK">
+                                    <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="CollectionCell" id="VQ3-1x-HZK">
                                         <rect key="frame" x="0.0" y="0.0" width="128" height="128"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <collectionViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" id="hEx-Xa-Qrs">
                                             <rect key="frame" x="0.0" y="0.0" width="128" height="128"/>
                                             <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="1" translatesAutoresizingMaskIntoConstraints="NO" id="KQT-VS-TJu">
+                                                    <rect key="frame" x="12" y="7" width="104" height="113"/>
+                                                    <constraints>
+                                                        <constraint firstAttribute="width" constant="104" id="e7F-s7-Pz9"/>
+                                                        <constraint firstAttribute="height" constant="113" id="f4q-zT-Sgq"/>
+                                                    </constraints>
+                                                </imageView>
+                                            </subviews>
+                                            <constraints>
+                                                <constraint firstAttribute="bottom" secondItem="KQT-VS-TJu" secondAttribute="bottom" constant="8" id="HuC-YO-4ju"/>
+                                                <constraint firstItem="KQT-VS-TJu" firstAttribute="leading" secondItem="hEx-Xa-Qrs" secondAttribute="leading" constant="12" id="KTb-yj-OIr"/>
+                                                <constraint firstItem="KQT-VS-TJu" firstAttribute="top" secondItem="hEx-Xa-Qrs" secondAttribute="top" constant="7" id="Vee-2c-hST"/>
+                                                <constraint firstAttribute="trailing" secondItem="KQT-VS-TJu" secondAttribute="trailing" constant="12" id="l34-iK-cqj"/>
+                                            </constraints>
                                         </collectionViewCellContentView>
                                     </collectionViewCell>
                                 </cells>
-                                <connections>
-                                    <outlet property="dataSource" destination="R8H-aE-AA1" id="Ooa-ex-vD3"/>
-                                    <outlet property="delegate" destination="R8H-aE-AA1" id="1yi-46-MV3"/>
-                                </connections>
                             </collectionView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="0os-0O-rMA"/>
@@ -233,7 +243,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="OOe-N8-icP" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1105.7971014492755" y="381.69642857142856"/>
+            <point key="canvasLocation" x="1222" y="382"/>
         </scene>
         <!--Tab Bar Controller-->
         <scene sceneID="VQR-WQ-MvG">
@@ -318,8 +328,7 @@
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="qca-pW-gia"/>
-        <segue reference="2mv-Zu-Tg0"/>
+        <segue reference="Bz9-2T-AeY"/>
     </inferredMetricsTieBreakers>
     <resources>
         <image name="1" width="500" height="500"/>
