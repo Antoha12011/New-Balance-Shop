@@ -170,10 +170,13 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="AZl-wk-ijM">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="AZl-wk-ijM">
                                 <rect key="frame" x="20" y="751" width="374" height="47"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" systemColor="systemBlueColor"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="47" id="C51-dk-gc1"/>
+                                    <constraint firstAttribute="width" constant="374" id="eZc-6A-e3F"/>
+                                </constraints>
                                 <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" title="Перейти к оформлению">
@@ -186,6 +189,12 @@
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="0os-0O-rMA"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="0os-0O-rMA" firstAttribute="trailing" secondItem="AZl-wk-ijM" secondAttribute="trailing" constant="20" id="Mqx-Js-2Tu"/>
+                            <constraint firstItem="0os-0O-rMA" firstAttribute="bottom" secondItem="AZl-wk-ijM" secondAttribute="bottom" constant="15" id="V2k-Yo-5du"/>
+                            <constraint firstItem="AZl-wk-ijM" firstAttribute="top" secondItem="0os-0O-rMA" secondAttribute="top" constant="663" id="oAe-xW-3c5"/>
+                            <constraint firstItem="AZl-wk-ijM" firstAttribute="leading" secondItem="0os-0O-rMA" secondAttribute="leading" constant="20" id="tbZ-X2-2qt"/>
+                        </constraints>
                     </view>
                     <navigationItem key="navigationItem" title="Корзина" largeTitleDisplayMode="always" id="UeQ-WD-Vh1"/>
                 </viewController>
