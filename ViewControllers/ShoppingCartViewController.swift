@@ -9,13 +9,12 @@ import UIKit
 
 class ShoppingCartViewController: UIViewController {
 
-   
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-
-        
     }
 
+    
     @IBAction func buttonToDecoration(_ sender: UIButton) {
        
        
