@@ -19,7 +19,7 @@ class InfoAboutShoesViewController: UIViewController {
         super.viewDidLoad()
     }
     
-    
+
     @IBAction func ClickToAddInCart(_ sender: UIButton) {
     }
    
