@@ -8,7 +8,7 @@
 
 import UIKit
 
-class ViewController: UIViewController, UITableViewDataSource, UITableViewDelegate {
+class HomeVc: UIViewController, UITableViewDataSource, UITableViewDelegate {
   
     
     @IBOutlet weak var tableShoes: UITableView!
@@ -51,7 +51,7 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
         _ = tableView.dequeueReusableCell(withIdentifier: "cell")
         
         let sunset = data[indexPath.row]
-        let cell = table.dequeueReusableCell(withIdentifier: "cell", for: indexPath) as! CustomTableViewCell
+        let cell = table.dequeueReusableCell(withIdentifier: "cell", for: indexPath) as! HomeTableViewCell
         cell.label.text = sunset.title
         cell.priceLbl.text = sunset.price
         cell.iconImageView.image = UIImage(named: sunset.imageName)

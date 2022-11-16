@@ -7,7 +7,7 @@
 
 import UIKit
 
-class ShoppingCartViewController: UIViewController {
+class ShoppCartVC: UIViewController {
 
     
     override func viewDidLoad() {

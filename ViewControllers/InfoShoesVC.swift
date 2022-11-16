@@ -7,7 +7,7 @@
 
 import UIKit
 
-class InfoAboutShoesViewController: UIViewController {
+class InfoShoesVC: UIViewController {
 
     
     @IBOutlet weak var modelLbl: UILabel!
