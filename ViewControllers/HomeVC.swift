@@ -64,7 +64,8 @@ class HomeVc: UIViewController, UITableViewDataSource, UITableViewDelegate {
         return 140
     }
     
-  
+
+
 }
     
     
