@@ -23,5 +23,5 @@ class InfoShoesVC: UIViewController {
     @IBAction func ClickToAddInCart(_ sender: UIButton) {
     }
    
-    
+
 }
