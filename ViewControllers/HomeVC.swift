@@ -58,7 +58,7 @@ class HomeVc: UIViewController, UITableViewDataSource, UITableViewDelegate {
         return cell
     }
     
-    
+
     // Функция отвечает за размер ячейки
     func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
         return 140
