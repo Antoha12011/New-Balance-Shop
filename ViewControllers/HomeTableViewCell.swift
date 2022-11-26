@@ -14,3 +14,4 @@ class HomeTableViewCell: UITableViewCell {
     @IBOutlet weak var priceLbl: UILabel!
     
 }
+
