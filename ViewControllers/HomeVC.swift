@@ -8,10 +8,8 @@
 
 import UIKit
 
-class HomeVc: UIViewController, UITableViewDataSource, UITableViewDelegate {
+class HomeVc: UIViewController {
   
-    
-    @IBOutlet weak var tableShoes: UITableView!
     @IBOutlet weak var table: UITableView!
     
     struct Sunset {
@@ -42,31 +40,41 @@ class HomeVc: UIViewController, UITableViewDataSource, UITableViewDelegate {
         table.delegate = self
     }
     
-    func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        return data.count
-    }
-    
-    func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        // Переиспользование ячеек
-        _ = tableView.dequeueReusableCell(withIdentifier: "cell")
-        
-        let sunset = data[indexPath.row]
-        let cell = table.dequeueReusableCell(withIdentifier: "cell", for: indexPath) as! HomeTableViewCell
-        cell.label.text = sunset.title
-        cell.priceLbl.text = sunset.price
-        cell.iconImageView.image = UIImage(named: sunset.imageName)
-        return cell
-    }
-    
-
-    // Функция отвечает за размер ячейки
-    func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
-        return 140
-    }
-    
-
 
 }
+
+    // MARK: - Configure Table -
+    
+    extension HomeVc: UITableViewDelegate, UITableViewDataSource {
+        
+        func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+            return data.count
+        }
+        
+        func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
+            // Переиспользование ячеек
+            _ = tableView.dequeueReusableCell(withIdentifier: "HomeTableViewCell")
+            
+            let sunset = data[indexPath.row]
+            let cell = table.dequeueReusableCell(withIdentifier: "HomeTableViewCell", for: indexPath) as! HomeTableViewCell
+            cell.label.text = sunset.title
+            cell.priceLbl.text = sunset.price
+            cell.iconImageView.image = UIImage(named: sunset.imageName)
+            return cell
+        }
+        
+
+        // Функция отвечает за размер ячейки
+        func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
+            return 140
+        }
+        
+    }
+   
+    
+
+
+
     
     
     

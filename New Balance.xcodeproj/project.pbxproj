@@ -11,6 +11,7 @@
 		127C3CBC290AF0CB00DA6EA2 /* ShoppCartVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 127C3CBB290AF0CB00DA6EA2 /* ShoppCartVC.swift */; };
 		128D41BE2908584A0008DD48 /* HomeTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 128D41BD2908584A0008DD48 /* HomeTableViewCell.swift */; };
 		12A622B528D7938F00AE65DB /* HomeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12A622B428D7938F00AE65DB /* HomeVC.swift */; };
+		12AFC87B2932B08C00C72ED5 /* ShoppCartViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12AFC87A2932B08C00C72ED5 /* ShoppCartViewCell.swift */; };
 		12FD6C8E28D379CF00D3419E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12FD6C8D28D379CF00D3419E /* AppDelegate.swift */; };
 		12FD6C9028D379CF00D3419E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12FD6C8F28D379CF00D3419E /* SceneDelegate.swift */; };
 		12FD6C9528D379CF00D3419E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 12FD6C9328D379CF00D3419E /* Main.storyboard */; };
@@ -23,6 +24,7 @@
 		127C3CBB290AF0CB00DA6EA2 /* ShoppCartVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShoppCartVC.swift; sourceTree = "<group>"; };
 		128D41BD2908584A0008DD48 /* HomeTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeTableViewCell.swift; sourceTree = "<group>"; };
 		12A622B428D7938F00AE65DB /* HomeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeVC.swift; sourceTree = "<group>"; };
+		12AFC87A2932B08C00C72ED5 /* ShoppCartViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShoppCartViewCell.swift; sourceTree = "<group>"; };
 		12FD6C8A28D379CF00D3419E /* New Balance.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "New Balance.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		12FD6C8D28D379CF00D3419E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		12FD6C8F28D379CF00D3419E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -50,6 +52,7 @@
 				128D41BD2908584A0008DD48 /* HomeTableViewCell.swift */,
 				1204CB7B290C01D000467843 /* InfoShoesVC.swift */,
 				127C3CBB290AF0CB00DA6EA2 /* ShoppCartVC.swift */,
+				12AFC87A2932B08C00C72ED5 /* ShoppCartViewCell.swift */,
 			);
 			path = ViewControllers;
 			sourceTree = "<group>";
@@ -164,6 +167,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				12A622B528D7938F00AE65DB /* HomeVC.swift in Sources */,
+				12AFC87B2932B08C00C72ED5 /* ShoppCartViewCell.swift in Sources */,
 				1204CB7C290C01D000467843 /* InfoShoesVC.swift in Sources */,
 				12FD6C8E28D379CF00D3419E /* AppDelegate.swift in Sources */,
 				128D41BE2908584A0008DD48 /* HomeTableViewCell.swift in Sources */,
