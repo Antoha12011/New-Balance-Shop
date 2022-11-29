@@ -25,10 +25,10 @@ class TableViewDetail: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        name.text = selectedShape.name
+        name.text = "Модель: " + selectedShape.name
         image.image = UIImage(named: selectedShape.imageName)
         discription.text = selectedShape.bigText
-        priceLbl.text = selectedShape.price
+        priceLbl.text = "Цена: " + selectedShape.price
     }
 }
 
