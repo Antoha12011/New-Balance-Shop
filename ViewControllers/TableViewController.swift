@@ -20,35 +20,46 @@ class TableViewController: UIViewController, UITableViewDataSource, UITableViewD
     }
     
     public func initList() {
-        let circle = Shape(bigText: "Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu", name: "New Balance 534", imageName: "1", price: "19.999₽")
-        shapeList.append(circle)
+        let dataShoes = Shape(bigText: "Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu", name: "New Balance 534", imageName: "1", price: "19.999₽")
+        shapeList.append(dataShoes)
 
-        let square = Shape(bigText: "", name: "New Balance 997", imageName: "2", price: "19.999₽")
-        shapeList.append(square)
+        let dataShoes1 = Shape(bigText: "", name: "New Balance 997", imageName: "2", price: "19.999₽")
+        shapeList.append(dataShoes1)
 
-        let octagon = Shape(bigText: "", name: "New Balance", imageName: "3", price: "19.999₽")
-        shapeList.append(octagon)
+        let dataShoes2 = Shape(bigText: "", name: "New Balance", imageName: "3", price: "19.999₽")
+        shapeList.append(dataShoes2)
 
-        let rectangle = Shape(bigText: "", name: "New Balance", imageName: "4", price: "19.999₽")
-        shapeList.append(rectangle)
+        let dataShoes3 = Shape(bigText: "", name: "New Balance", imageName: "4", price: "19.999₽")
+        shapeList.append(dataShoes3)
 
-        let triangle = Shape(bigText: "", name: "New Balance", imageName: "5", price: "19.999₽")
-        shapeList.append(triangle)
+        let dataShoes4 = Shape(bigText: "", name: "New Balance", imageName: "5", price: "19.999₽")
+        shapeList.append(dataShoes4)
 
-        let circle2 = Shape(bigText: "", name: "New Balance", imageName: "6", price: "19.999₽")
-        shapeList.append(circle2)
+        let dataShoes5 = Shape(bigText: "", name: "New Balance", imageName: "6", price: "19.999₽")
+        shapeList.append(dataShoes5)
 
-        let square2 = Shape(bigText: "", name: "New Balance", imageName: "7", price: "19.999₽")
-        shapeList.append(square2)
+        let dataShoes6 = Shape(bigText: "", name: "New Balance", imageName: "7", price: "19.999₽")
+        shapeList.append(dataShoes6)
 
-        let octagon2 = Shape(bigText: "", name: "New Balance", imageName: "8", price: "19.999₽")
-        shapeList.append(octagon2)
+        let dataShoes7 = Shape(bigText: "", name: "New Balance", imageName: "8", price: "19.999₽")
+        shapeList.append(dataShoes7)
 
-        let rectangle2 = Shape(bigText: "", name: "New Balance", imageName: "9", price: "19.999₽")
-        shapeList.append(rectangle2)
+        let dataShoes8 = Shape(bigText: "", name: "New Balance", imageName: "9", price: "19.999₽")
+        shapeList.append(dataShoes8)
 
-        let triangle2 = Shape(bigText: "", name: "New Balance", imageName: "10", price: "19.999₽")
-        shapeList.append(triangle2)
+        let dataShoes9 = Shape(bigText: "", name: "New Balance", imageName: "10", price: "19.999₽")
+        shapeList.append(dataShoes9)
+        
+        let dataShoes10 = Shape(bigText: "", name: "New Balance", imageName: "11", price: "19.999₽")
+        shapeList.append(dataShoes10)
+
+        let dataShoes11 = Shape(bigText: "", name: "New Balance", imageName: "12", price: "19.999₽")
+        shapeList.append(dataShoes11)
+
+        let dataShoes12 = Shape(bigText: "", name: "New Balance", imageName: "13", price: "19.999₽")
+        shapeList.append(dataShoes12)
+        
+        
     }
 
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
