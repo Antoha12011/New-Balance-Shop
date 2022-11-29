@@ -73,7 +73,7 @@ class TableViewController: UIViewController, UITableViewDataSource, UITableViewD
         
         let thisShape = shapeList[indexPath.row]
         
-        tableViewCell.shapeName.text = thisShape.name
+        tableViewCell.shapeName.text = thisShape.name 
         tableViewCell.shapeImage.image = UIImage(named: thisShape.imageName)
         tableViewCell.priceNew.text = thisShape.price
         
